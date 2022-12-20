@@ -1,0 +1,28 @@
+body {
+    background: url('images/background.png') fixed;
+  }
+  
+  body {
+    background-image: url('images/background.png');
+    background-attachment:scroll;
+    background-size: cover;
+  }
+  
+
+
+  .parent {
+    width: 800px;
+    height: 600px;
+    background-color: #eee;
+  }
+  
+  .child {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    background-color: #fff;
+  }
+  .center-image {
+    display: flex;
+    align-items: center;
+  }
